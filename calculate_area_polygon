@@ -1,0 +1,12 @@
+#Area of a polygon using math library
+
+import math
+
+def area_polygon(n,l):
+    return (0.25*n*l**2)/math.tan(math.pi/n)
+
+print area_polygon(6,7)
+
+
+
+
